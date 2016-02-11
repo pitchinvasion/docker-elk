@@ -7,4 +7,5 @@ RUN chmod +x /tmp/entrypoint.sh
 
 RUN kibana plugin --install elastic/sense
 
+
 CMD ["/tmp/entrypoint.sh"]
